@@ -1,23 +1,40 @@
-// Import Bootstrap functions first
-@use "bootstrap/scss/functions";
+// // Import Bootstrap functions first
+// @use "bootstrap/scss/functions";
 
-// Import Bootstrap mixins before variables
-@use "bootstrap/scss/mixins" as *;
+// // Import Bootstrap mixins before variables
+// @use "bootstrap/scss/mixins" as *;
 
-@use "bootstrap/scss/variables" as *; // Imports all variables
-// Override Bootstrap variables
-@use "bootstrap/scss/bootstrap" with (
-  $primary:       $blue,
-  $secondary:     $gray-600,
-  $success:       $green,
-  $warning:       $yellow,
-  $danger:        $red,
-  $light:         $gray-100,
-  $dark:          $gray-900,
-  $font-family-sans-serif: 'Arial', // Customize font
-  $body-bg: #f8f9fa,                // Change body background color
-//   $navbar-light-bg: #343a40, // Use an existing overrideable variable
-//   $navbar-light-color: #ffffff      // Navbar text color
-);
+// @use "bootstrap/scss/variables" as *; // Imports all variables
+// // Override Bootstrap variables
+// @use "bootstrap/scss/bootstrap" with (
+//   $primary:       $blue,
+//   $secondary:     $gray-600,
+//   $success:       $green,
+//   $warning:       $yellow,
+//   $danger:        $red,
+//   $light:         $gray-100,
+//   $dark:          $gray-900,
+//   $font-family-sans-serif: 'Arial', // Customize font
+//   $body-bg: #f8f9fa,                // Change body background color
+// //   $navbar-light-bg: #343a40, // Use an existing overrideable variable
+// //   $navbar-light-color: #ffffff      // Navbar text color
+// );
 
 
+
+
+$primary: #44b878;
+$danger: #ff4136;
+$success: #28a745;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
+@import "bootstrap/scss/bootstrap";
+
+
+
+
+// $primary:       $green;
+// $secondary:     $gray-600;
