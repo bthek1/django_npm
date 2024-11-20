@@ -1,0 +1,24 @@
+{
+  "name": "django_npm",
+  "version": "1.0.0",
+  "description": "> A batteries-included Django starter project. To learn more visit [LearnDjango.com](https://learndjango.com).",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx sass --load-path=node_modules --quiet-deps frontend/scss/custom.scss frontend/css/custom.css",
+    "watch-css": "npx sass --watch --load-path=node_modules --quiet-deps frontend/scss/custom.scss:frontend/css/custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bthek1/django_npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bthek1/django_npm/issues"
+  },
+  "homepage": "https://github.com/bthek1/django_npm#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.81.0"
+  }
+}
